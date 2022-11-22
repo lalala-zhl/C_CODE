@@ -2,7 +2,7 @@
 int main()
 {
 	int i = 0;
-	int sum = 0;                    //sum¼ÆËãÀÛ¼ÓºÍ
+	int sum = 0;                    //sumè®¡ç®—ç´¯åŠ å’Œ
 
 	for (i = 1; i <= 100; i++)
 	{
