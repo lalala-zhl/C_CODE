@@ -3,12 +3,12 @@
 void menu()
 {
 	printf("***************************\n");
-	printf("*     Êý×é·ÃÎÊÏµÍ³        *\n");
+	printf("*     æ•°ç»„è®¿é—®ç³»ç»Ÿ        *\n");
 	printf("*                         *\n");
-	printf("*    1.Êý×é¸³Öµ           *\n");
-	printf("*    2.Êý×éÊä³ö           *\n");
-	printf("*    3.Êý×éÅÅÐò           *\n");
-	printf("*    4.ÍË³ö               *\n");
+	printf("*    1.æ•°ç»„èµ‹å€¼           *\n");
+	printf("*    2.æ•°ç»„è¾“å‡º           *\n");
+	printf("*    3.æ•°ç»„æŽ’åº           *\n");
+	printf("*    4.é€€å‡º               *\n");
 	printf("*                         *\n");
 	printf("***************************\n");
 }
@@ -39,12 +39,12 @@ int main()
 	menu();
 	while (1)
 	{
-		printf("ÇëÊäÈë¹¦ÄÜ(1-4):> ");
+		printf("è¯·è¾“å…¥åŠŸèƒ½(1-4):> ");
 		scanf("%d", &a);
 		switch (a)
 		{
 		case 1:
-			printf("ÇëÊäÈëÐèÒª±È½ÏµÄ10¸öÊý×Ö:> \n");
+			printf("è¯·è¾“å…¥éœ€è¦æ¯”è¾ƒçš„10ä¸ªæ•°å­—:> \n");
 			for (i = 0; i < 10; i++)
 			{
 				scanf("%d", &arr[i]);
@@ -58,14 +58,14 @@ int main()
 			printf("\n");
 			break;
 		case 3:
-			Compare(arr);
+			Compare(arr);                           //è¿›è¡ŒæŽ’åº
 			printf("\n");
 			break;
 		case 4:
-			void _exit(int status);
+			void _exit(int status);                    //é€€å‡ºç¨‹åº
 			break;
 		default:
-			printf("\nÇëÖØÐÂÑ¡Ôñ:> ");
+			printf("\nè¯·é‡æ–°é€‰æ‹©:> ");
 			break;
 		}
 	}	
