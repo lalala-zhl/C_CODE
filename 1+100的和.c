@@ -2,7 +2,7 @@
 int main()
 {
 	int i = 0;
-	int sum = 0;                    //sum计算累加和
+	int sum = 0;                    //计算累加和
 
 	for (i = 1; i <= 100; i++)
 	{
