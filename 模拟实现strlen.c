@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <assert.h>
-int my_strlen(const char* str)                 //const³£Á¿
+int my_strlen(const char* str)                 //constå¸¸é‡
 {
-	int count = 0;                             //¼ÆÊıÆ÷
-	assert(*str != NULL);                      //¶ÏÑÔ
+	int count = 0;                             //è®¡æ•°å™¨
+	assert(*str != NULL);                      //æ–­è¨€
 	
 	while (*str != '\0')
 	{
